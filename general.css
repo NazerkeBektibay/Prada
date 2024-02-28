@@ -1,0 +1,626 @@
+body{
+    background-color: white;
+    width: 99%;
+    gap: 20px;
+}
+header{
+    width: 101%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.pra{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    padding-inline: 0px;
+    padding-right: 15px;
+}
+.header-top{
+    display: flex;
+    text-align: center;
+    align-items:baseline;
+    justify-content: space-between;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+
+.header-top p{
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    display: flex;
+}
+
+.registration img{
+    width: 21px;
+    height:18px;
+    margin-right: 10px;
+}
+
+.woman{
+    width:100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.woman-video{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    gap: 20px;
+}
+.ss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 90%;
+    height: 100%;
+    margin: 17px;
+    align-items: baseline;
+}
+
+.mm{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+    width: 90%;
+    margin:17px;
+}
+
+.ss h2{
+    font-size: 23px;
+    font-weight: 900 bolder;
+    height: 3px;
+    font-family:  Tahoma, sans-serif;
+    min-height: 3px;
+}
+
+.mm h2{
+    font-size: 23px;
+    font-weight: 900 bolder;
+    height: 3px;
+    font-family:  Tahoma, sans-serif;
+    color: white;
+    min-height: 3px;
+
+}
+#shop{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-bottom: 1.6px solid black;
+    font-size: 18px;
+}
+
+#hop{
+    color: white;
+    border-bottom: 1.6px solid white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 18px;
+    margin: 17px;
+}
+
+.mens{
+    position: absolute;
+    width:100%;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    gap: 20px;
+}
+
+.men-video{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.video-woman{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/*first and second  cards */
+.cardd img{
+    width: 750px;
+    height: 800px;
+    margin-right: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.ddiv{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin:17px;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: baseline;
+}
+
+.ddiv h2{
+    font-size: 23px;
+    font-weight: 900 bolder;
+    font-family:  Tahoma, sans-serif;
+    color: white;
+    min-height: 3px;
+}
+
+.shop-cards{
+    border-bottom: 1.6px solid white;
+    font-size: 18px;
+    padding: 3px;
+  
+}
+
+.ediv h2{
+    font-size: 23px;
+    font-weight: 900 bolder;
+    font-family:  Tahoma, sans-serif;
+    color: white;
+    min-height: 3px;
+}
+
+.ediv p{
+    border-bottom:1.6px solid white;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.ediv{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    flex-direction: row;
+    margin:17px;
+    justify-content:space-between;
+    text-align: center;
+    align-items: baseline;
+}
+
+.cardd{
+    display: flex;
+    top: 0;
+    bottom: 0;
+    width: 750px;
+    height: 800px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-one{ 
+    gap: 20px;
+    padding-top: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    text-align: center;
+}
+
+.cardtwo{
+    display: flex;
+    top: 0;
+    bottom: 0;
+    /* width: 750px;
+    height: 800px; */
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cardtwo img{
+    width: 750px;
+    height: 800px;
+    margin-right: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* third video */
+.beauty{
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    margin-top:20px;
+}
+.beauty-shop{
+    width:100%;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+.pshop{
+    display:inline-block;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* align-items: baseline; */
+    width: 90%;
+    margin: auto;
+    color: white;
+    margin: 17px;
+}
+
+#beau{
+    color: white;
+    border-bottom: 1.6px solid white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.pshop h2{
+    font-size: 23px;
+    font-weight: 900 bolder;
+    font-family:  Tahoma, sans-serif;
+    min-height: 3px;
+}
+
+/* third and fourth cards */
+.three{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.imgdiv img{
+    width: 750px;
+    height: 800px;
+    margin-right: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.bigger{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    flex-direction: row;
+    margin:17px;
+    justify-content:space-between;
+    text-align: center;
+    align-items: baseline;
+    color: black;
+}
+.bigger h2{
+    min-height: 3px;
+    font-size: 23px;
+    font-weight: 900 bolder;
+    font-family:  Tahoma, sans-serif;
+    color:black;
+}
+.bigger p{
+    border-bottom:1.6px black solid;
+    font-size: 18px;
+    padding: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.third_card{
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+
+/* last video */
+.box{
+    width:100%;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.collection{
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    margin-top:20px;
+}
+
+.for{
+    display:flex;
+    color: white;
+    margin: 17px;
+}
+
+.for p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 13px;
+    font-weight: 600;
+    font-size: .905rem;
+    position: relative;
+    text-align: center;
+    min-height: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-bottom: 1.6px solid white;
+}
+
+.collection h2{
+    min-height: 3px;
+    font-size: 23px;
+    font-weight: 900 bolder;
+    font-family:  Tahoma, sans-serif;
+    color:white;
+    margin: 17px;
+}
+
+
+/* footer re-nylon */
+.footer{
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    height: 750px;
+}
+
+footer p{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight:500;
+    text-align: left;
+    margin-right: 260px;
+    border-bottom: 1.6px solid white;
+    margin-bottom:100px;
+    display:inline-block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.re_nylon h2{
+    min-height: 3px;
+    font-size: 33px;
+    font-weight: 900 bolder;
+    font-family:  Tahoma, sans-serif;
+    color:white;
+    text-align: left;
+    margin-left: 260px;
+}
+
+.sphere{
+    text-align: left;
+    transform: rotate(-0.25turn);
+    font-size: 33px;
+    font-weight: 900 bolder;
+    font-family:  Tahoma, sans-serif;
+    color:white;
+    top: 310px;
+    position: relative;
+    margin-right:1385px;
+}
+
+.imgh{
+    height: 480px;
+    width: 65%;
+   
+}
+
+/* ul li footer */
+.footer{
+    gap:20px;
+}
+#nylob{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:600;
+    font-size: 14px;
+}
+
+.ul_li{
+    display: flex;
+    text-align: center;
+    margin-right: 45px;
+}
+
+.ul_li ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    width: 100%;
+    margin-top: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:300;
+    font-size: 13px;
+    margin-left:98px;
+    gap: 20px;
+}
+
+
+/* subscribe */
+.innp{
+    width: 250px;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1.4px solid black;
+}
+.pop{
+    width:235px;
+    padding: 10px 0;
+    align-items: baseline;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    display: inline-block;
+}
+
+
+#bycl{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:300;
+    font-size: 10px;
+    display: inline-block;
+}
+
+#bycl span{
+    font-weight: 200;
+    text-decoration: underline black;
+}
+
+.icon{
+    padding-left: 13px;
+    margin-top: 18px;
+}
+
+
+.cali{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:300;
+    font-size: 15px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.privac span{
+    text-decoration: underline black;
+}
+
+.privac img{
+    width: 15px;
+    height: 12px;
+}
+
+.privac div {
+    display: flex;
+    align-items: baseline;
+    margin-right: 15px;
+    justify-content: space-between;
+}
+
+.privac strong{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:600;
+    font-size: 14px;
+}
+
+.str{
+    margin-right: 15px;
+}
+.re_nylon p{
+    margin-bottom: 50px;
+}
+
+
+
